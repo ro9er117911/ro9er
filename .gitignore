@@ -4,3 +4,6 @@ node_modules/
 dist/
 .cache/
 video/*.webm
+video/*.mov
+photo/**/*.heic
+personal-site-current-method.png
