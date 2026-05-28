@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roger Lo - Portfolio</title>
+  <meta name="description"
+    content="Roger Lo's portfolio: visual systems, AI governance, MATSim simulation, civic data, and financial transformation work." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#work">Skip to portfolio</a>
+
+  <header class="site-header" aria-label="Primary navigation">
+    <a class="brand" href="#top" aria-label="Roger Lo home">
+      <span>Roger Lo</span>
+      <small>Portfolio</small>
+    </a>
+    <nav class="nav-links" aria-label="Site sections">
+      <a href="#work">Work</a>
+      <a href="#graph">Graph</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="language-toggle" aria-label="Language toggle">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <video id="heroVideo" class="hero-video" poster="photo/matsim/截圖 2026-05-12 上午11.49.47.png" muted
+        playsinline loop autoplay preload="metadata" aria-label="MATSim and PlanB visual proof video">
+        <source src="video/matsim_iter.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Now moving / proof already built</p>
+        <h1 id="hero-title">
+          <span data-lang-text="en">Current opportunities, grounded by visible systems.</span>
+          <span data-lang-text="zh">用正在發生的機會，包住已經做出的證據。</span>
+        </h1>
+        <p class="punch">
+          <span data-lang-text="en">NJIT in July, Tokyo disaster-prevention fieldwork in September, and a thesis
+            question about how organizations frame messy, high-stakes information.</span>
+          <span data-lang-text="zh">七月 NJIT、九月東京防災參訪，以及一個關於組織如何框定混亂高風險資訊的論文問題。</span>
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">View proof</a>
+          <a class="button secondary" href="#graph">Explore map</a>
+          <button class="button secondary play-video" type="button" data-video="heroVideo" aria-pressed="false">Pause video</button>
+        </div>
+      </div>
+
+      <div class="now-rail" aria-label="Current milestones">
+        <article>
+          <span>01 / July 2026</span>
+          <h2>NJIT AI + Entrepreneurship Bootcamp</h2>
+          <p>Public-funded New Jersey AI and startup experience.</p>
+        </article>
+        <article>
+          <span>02 / September 2026</span>
+          <h2>Tokyo Disaster Prevention Visit</h2>
+          <p>Field evidence for PlanB and street-level disaster playbooks.</p>
+        </article>
+        <article>
+          <span>03 / Thesis Research</span>
+          <h2>Research in Progress</h2>
+          <p>面對不完整、混亂、但後果很重的資訊時，基層人員、審查者與中間主管如何共同定義問題。</p>
+        </article>
+      </div>
+
+      <p class="proof-caption">Video proof playing: MATSim / PlanB simulation evidence from prior work.</p>
+    </section>
+
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="section-head">
+        <p class="section-kicker">Featured Work</p>
+        <h2 id="work-title">
+          <span data-lang-text="en">Proof that came before the next milestones.</span>
+          <span data-lang-text="zh">新的機會背後，是已經做出來的證據。</span>
+        </h2>
+      </div>
+
+      <div class="work-grid">
+        <article class="project-card project-matsim" data-project="matsim">
+          <a href="#graph" aria-label="Explore MATSim connections">
+            <span class="project-no">01</span>
+            <span class="project-role">Role: Simulation core builder</span>
+            <h3>MATSim / PlanB</h3>
+            <p>Disaster evacuation assumptions turned into replayable simulation evidence.</p>
+            <em>最難的專案：把災難疏散假設變成可回放的系統證據。</em>
+          </a>
+        </article>
+
+        <article class="project-card project-governance" data-project="governance">
+          <a href="#graph" aria-label="Explore AI governance connections">
+            <span class="project-no">02</span>
+            <span class="project-role">Role: Thesis researcher / governance systems designer</span>
+            <h3>Thesis Research / AI Governance</h3>
+            <p>How frontline staff, reviewers, and middle managers define the real problem from messy,
+              high-stakes information.</p>
+            <em>論文研究中：組織架構、資訊框定與 AI agent 協作的交界。</em>
+          </a>
+        </article>
+
+        <article class="project-card project-civic" data-project="civic">
+          <a href="#graph" aria-label="Explore civic guide connections">
+            <span class="project-no">03</span>
+            <span class="project-role">Role: PM / interaction framing / evidence-flow design</span>
+            <h3>Taipei / New Taipei Civic AI Guide</h3>
+            <p>Open-data questions shaped into UI actions, event logs, and evidence cards.</p>
+            <em>負責 PM、互動框架，讓使用者問題變成可操作流程。</em>
+          </a>
+        </article>
+
+        <article class="project-card project-fintech" data-project="fintech">
+          <a href="#graph" aria-label="Explore fintech connections">
+            <span class="project-no">04</span>
+            <span class="project-role">Role: Product proposer / visualization lead / finance-domain integrator</span>
+            <h3>Anti-Fraud MVP / Bank Transformation Brief</h3>
+            <p>Anti-fraud signals and bank transformation ideas reframed into MVP visuals and executive-ready briefs.
+            </p>
+            <em>用反詐視覺、MVP 與金融語境，讓主管快速看懂風險與方案。</em>
+          </a>
+        </article>
+      </div>
+      <p class="graph-cue">
+        Want the map view? <a href="#graph">Try the knowledge graph below.</a>
+        <span>想用圖看關係？往下點知識圖譜。</span>
+      </p>
+    </section>
+
+    <section class="section graph-section" id="graph" aria-labelledby="graph-title">
+      <div class="section-head compact">
+        <p class="section-kicker">Interactive Knowledge Graph</p>
+        <h2 id="graph-title">
+          <span data-lang-text="en">Click a node. See how the work connects.</span>
+          <span data-lang-text="zh">點一個節點，看作品、經歷和能力怎麼連在一起。</span>
+        </h2>
+      </div>
+
+      <div class="graph-layout">
+        <div class="graph-canvas" aria-label="Interactive portfolio knowledge graph">
+          <svg id="knowledgeGraph" viewBox="0 0 900 560" aria-hidden="true" focusable="false">
+            <title id="graphSvgTitle">Roger portfolio knowledge graph</title>
+            <desc id="graphSvgDesc">A clickable graph connecting projects, roles, strengths, and experience.</desc>
+          </svg>
+        </div>
+        <aside class="graph-panel" aria-live="polite">
+          <p class="panel-kicker">Selected node</p>
+          <h3 id="nodeTitle">Roger Lo</h3>
+          <p id="nodeText">Click any node to explore how my projects, roles, skills, and experience connect.</p>
+          <div class="relationship-panel">
+            <p class="panel-kicker">Relationship / 關係說明</p>
+            <ul id="relationshipList" class="relationship-list"></ul>
+          </div>
+          <div id="nodeTags" class="node-tags" aria-label="Node tags"></div>
+          <div class="graph-control-panel">
+            <p class="panel-kicker">Jump to node / 節點</p>
+            <div id="graphControls" class="graph-controls" aria-label="Knowledge graph nodes"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section cv" id="cv" aria-labelledby="cv-title">
+      <div class="section-head compact">
+        <p class="section-kicker">Resume</p>
+        <h2 id="cv-title">Resume</h2>
+      </div>
+
+      <div class="cv-grid">
+        <article>
+          <h3>Experience</h3>
+          <ol>
+            <li><time>2025-2026</time><span>MIT City Science Lab, AI group, research intern</span></li>
+            <li><time>2025-Present</time><span>Sinopac Bank, Financial Technology Department, intern</span></li>
+            <li><time>2024-2025</time><span>AIFlight Technology, co-founder</span></li>
+            <li><time>2023</time><span>Taiwan Mobile, customer service technology intern</span></li>
+          </ol>
+        </article>
+        <article>
+          <h3>Education</h3>
+          <ol>
+            <li><time>2025-Present</time><span>NTUT, FinTech and Information Security, M.S.</span></li>
+            <li><time>2024</time><span>Amsterdam University of Applied Sciences, exchange student</span></li>
+            <li><time>2020-2024</time><span>NTUT, Information and Finance Management, B.S.</span></li>
+          </ol>
+        </article>
+        <article>
+          <h3>Awards / Startup / Patent</h3>
+          <ol>
+            <li><time>2024</time><span>AI FinTech Innovation Competition, 1st place</span></li>
+            <li><time>2024</time><span>E.SUN Bank Campus Business Competition, finalist award</span></li>
+            <li><time>2024-2025</time><span>U-start Innovation Entrepreneurship Grant, phase 1</span></li>
+            <li><time>Patent</time><span>Speech recognition method for fraud detection</span></li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <p class="section-kicker">Contact</p>
+      <h2 id="contact-title">
+        <span data-lang-text="en">Bring me the messy system.</span>
+        <span data-lang-text="zh">把看不清楚的系統問題丟給我。</span>
+      </h2>
+      <p>
+        I am useful when the work has real stakes, unclear responsibility, messy information, and a need for visible
+        progress.
+      </p>
+      <div class="contact-links">
+        <a href="https://github.com/ro9er117911">GitHub</a>
+        <a href="https://www.linkedin.com/in/chun-lo-35027624b/">LinkedIn</a>
+        <a href="https://medium.com/@rogerlo117911">Medium</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const root = document.documentElement;
+    const langButtons = document.querySelectorAll("[data-set-lang]");
+    const videoButtons = document.querySelectorAll(".play-video");
+    const graphSvg = document.getElementById("knowledgeGraph");
+    const nodeTitle = document.getElementById("nodeTitle");
+    const nodeText = document.getElementById("nodeText");
+    const nodeTags = document.getElementById("nodeTags");
+    const relationshipList = document.getElementById("relationshipList");
+
+    const graphData = {
+      nodes: [
+        { id: "roger", label: "Roger Lo", x: 450, y: 270, type: "core", text: "Portfolio anchor: current NJIT/Tokyo opportunities grounded by visual systems, financial AI governance, simulation evidence, and PM-led interaction framing.", tags: ["Portfolio", "Visual systems", "AI transformation"] },
+        { id: "matsim", label: "MATSim / PlanB", x: 230, y: 150, type: "project", text: "Flagship simulation work. Role: Simulation core builder.", tags: ["Simulation evidence", "PlanB", "System risk"] },
+        { id: "governance", label: "Thesis / AI Governance", x: 670, y: 150, type: "project", text: "Research in progress: how frontline staff, reviewers, and middle managers define the real problem when information is incomplete, messy, and high-stakes.", tags: ["Information framing", "Organization design", "AI governance"] },
+        { id: "civic", label: "Civic AI Guide", x: 670, y: 390, type: "project", text: "PM and interaction framing for civic data questions, UI actions, event logs, and evidence cards.", tags: ["PM", "Interaction framing", "Evidence flow"] },
+        { id: "fintech", label: "Anti-Fraud MVP", x: 230, y: 390, type: "project", text: "Anti-fraud dashboard and bank transformation brief shaped for finance-domain review.", tags: ["Anti-fraud", "Banking", "MVP visual"] },
+        { id: "visual", label: "Visualization", x: 450, y: 88, type: "skill", text: "A practical way to make unfamiliar systems readable for managers, experts, and reviewers.", tags: ["Dashboards", "Decks", "Graph views"] },
+        { id: "resources", label: "Resource integration", x: 450, y: 452, type: "skill", text: "Combining AI, experts, documents, and existing tools into visible artifacts.", tags: ["AI", "Experts", "Documents"] },
+        { id: "mit", label: "MIT City Science", x: 145, y: 270, type: "experience", text: "Research context for city systems, simulation, and visual evidence.", tags: ["Research", "City systems"] },
+        { id: "sinopac", label: "Sinopac Bank", x: 755, y: 270, type: "experience", text: "Banking context for anti-fraud, financial AI governance, and transformation constraints.", tags: ["Banking", "FinTech", "Governance"] }
+      ],
+      edges: [
+        { source: "roger", predicate: "built", target: "matsim", label: "Roger Lo — built — MATSim / PlanB" },
+        { source: "roger", predicate: "researches", target: "governance", label: "Roger Lo — researches — information framing in organizations" },
+        { source: "roger", predicate: "framed", target: "civic", label: "Roger Lo — framed — Civic AI Guide" },
+        { source: "roger", predicate: "proposed", target: "fintech", label: "Roger Lo — proposed — Anti-Fraud MVP" },
+        { source: "sinopac", predicate: "contextualizes", target: "fintech", label: "Sinopac Bank — contextualizes — financial transformation" },
+        { source: "mit", predicate: "contextualizes", target: "matsim", label: "MIT City Science — contextualizes — simulation / city systems" },
+        { source: "governance", predicate: "visualizes", target: "visual", label: "AI Governance Deck — visualizes — abstract responsibility chain" },
+        { source: "visual", predicate: "supports", target: "fintech", label: "Visualization — supports — anti-fraud dashboard review" },
+        { source: "resources", predicate: "turns into", target: "civic", label: "Resource integration — turns into — user-facing interaction flow" }
+      ]
+    };
+
+    function setLanguage(lang) {
+      root.dataset.lang = lang;
+      langButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.setLang === lang)));
+      try { localStorage.setItem("roger-site-lang", lang); } catch (error) { }
+    }
+
+    function activateVideo(videoId, button) {
+      const video = document.getElementById(videoId);
+      if (!video) return;
+      if (video.paused) {
+        video.play().then(() => {
+          button.textContent = "Pause video";
+          button.setAttribute("aria-pressed", "false");
+        }).catch(() => {
+          button.textContent = "Play video";
+          button.setAttribute("aria-pressed", "true");
+        });
+      } else {
+        video.pause();
+        button.textContent = "Play video";
+        button.setAttribute("aria-pressed", "true");
+      }
+    }
+
+    function nodeById(id) {
+      return graphData.nodes.find((node) => node.id === id);
+    }
+
+    function setNode(id) {
+      const node = nodeById(id);
+      if (!node) return;
+      nodeTitle.textContent = node.label;
+      nodeText.textContent = node.text;
+      nodeTags.innerHTML = node.tags.map((tag) => `<span>${tag}</span>`).join("");
+      const related = graphData.edges.filter((edge) => edge.source === id || edge.target === id);
+      relationshipList.innerHTML = related.length
+        ? related.map((edge) => `<li><strong>${edge.predicate}</strong><span>${edge.label}</span></li>`).join("")
+        : "<li><span>No direct relationship selected.</span></li>";
+      graphSvg.querySelectorAll(".graph-node").forEach((circle) => circle.classList.toggle("is-active", circle.dataset.id === id));
+    }
+
+    function drawGraph() {
+      const edgeMarkup = graphData.edges.map((edge) => {
+        const source = nodeById(edge.source);
+        const target = nodeById(edge.target);
+        return `<line class="graph-edge" x1="${source.x}" y1="${source.y}" x2="${target.x}" y2="${target.y}" />`;
+      }).join("");
+
+      const nodeMarkup = graphData.nodes.map((node) => `
+            <g class="graph-node-wrap" data-id="${node.id}" transform="translate(${node.x} ${node.y})">
+              <circle class="graph-node graph-node-${node.type}" data-id="${node.id}" r="${node.type === "core" ? 42 : 32}" />
+              <text class="graph-label" text-anchor="middle" y="${node.type === "core" ? 64 : 54}">${node.label}</text>
+            </g>
+          `).join("");
+
+      graphSvg.insertAdjacentHTML("beforeend", `<g>${edgeMarkup}</g><g>${nodeMarkup}</g>`);
+      document.getElementById("graphControls").innerHTML = graphData.nodes.map((node) => `<button type="button" data-id="${node.id}">${node.label}</button>`).join("");
+      graphSvg.querySelectorAll(".graph-node-wrap").forEach((group) => {
+        const id = group.dataset.id;
+        group.addEventListener("click", () => setNode(id));
+      });
+      document.querySelectorAll("#graphControls button").forEach((button) => {
+        button.addEventListener("click", () => setNode(button.dataset.id));
+      });
+      document.querySelectorAll(".project-card").forEach((card) => {
+        card.querySelector("a").addEventListener("click", () => {
+          window.setTimeout(() => setNode(card.dataset.project), 120);
+        });
+      });
+      setNode("roger");
+    }
+
+    langButtons.forEach((button) => button.addEventListener("click", () => setLanguage(button.dataset.setLang)));
+    videoButtons.forEach((button) => button.addEventListener("click", () => activateVideo(button.dataset.video, button)));
+    drawGraph();
+
+    const heroVideo = document.getElementById("heroVideo");
+    const heroVideoButton = document.querySelector(".play-video[data-video='heroVideo']");
+    if (heroVideo && heroVideoButton) {
+      heroVideo.play().catch(() => {
+        heroVideoButton.textContent = "Play video";
+        heroVideoButton.setAttribute("aria-pressed", "true");
+      });
+    }
+
+    try {
+      const savedLanguage = localStorage.getItem("roger-site-lang");
+      if (savedLanguage === "zh" || savedLanguage === "en") setLanguage(savedLanguage);
+    } catch (error) { }
+  </script>
+</body>
+
+</html>

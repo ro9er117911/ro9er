@@ -1,6 +1,6 @@
 # Personal Portfolio Website Design
 
-Status: draft, grill-me audience decision confirmed
+Status: React/Vite migration active, grill-me audience decision confirmed
 Target host: GitHub Pages
 Primary visual reference: https://forrm.studio/
 Design workflow reference: https://github.com/google-labs-code/stitch-skills
@@ -9,7 +9,7 @@ Ralplan handoff: `.omx/plans/ralplan-personal-site-portfolio.md`
 
 ## Direction
 
-Build a static personal portfolio that presents Roger as a practical AI / data / product systems builder.
+Build a personal portfolio that presents Roger as a practical AI / data / product systems builder.
 
 Primary audience decision:
 
@@ -31,7 +31,7 @@ Supporting work can appear in a secondary strip or compact index.
 - Evidence over decoration.
 - Typography as interface.
 - Few strong case studies before broad project listing.
-- Static-first, GitHub Pages-safe implementation.
+- GitHub Pages-safe implementation.
 - Public-safe content only.
 
 ## Visual Language
@@ -74,11 +74,11 @@ Suggested card fields:
 
 ## First Prototype Scope
 
-First release should be a single static page:
+Current release is a Vite-built static site:
 
-- `index.html`
-- `styles.css`
-- optional small `script.js`
+- source under `app/`
+- generated `index.html` and `assets/` at repo root
+- legacy rollback copy under `legacy/static-20260528/`
 - local assets under `photo/` and `video/`
 
 No backend, CMS, auth, database, or paid runtime should be introduced for the first release.
